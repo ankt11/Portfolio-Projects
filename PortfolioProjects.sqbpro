@@ -219,5 +219,5 @@ WHERE dea.continent IS NOT NULL;
 
 SELECT *, (RollingPeopleVaccinated/Population)*100 AS RollingPeopleVaccinated_Percentage
 FROM PercentPopulationVaccinated
-ORDER BY 2, 3;</sql><sql name="SQL 3">SELECT DISTINCT date FROM CovidDeaths LIMIT 5;
-</sql><current_tab id="0"/></tab_sql></sqlb_project>
+ORDER BY 2, 3;
+
